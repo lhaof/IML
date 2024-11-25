@@ -1,16 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Notes
-# 
-# We provide this notebook for inference and visualizations. 
-# 
-# You can either load images from a dataloader(see Sec. 1) or from a local path(see Sec. 2).
-# 
-# Welcome to join [IDEA](https://idea.edu.cn/en)([中文网址](https://idea.edu.cn/))!
-
-# In[1]:
-
 
 import os, sys
 import torch, json
