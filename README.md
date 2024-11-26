@@ -24,7 +24,7 @@ The pretrained-models can be downloaded from this link:
 https://pan.baidu.com/s/1qMiJiNAg8QtHCgMlZXtdxA?pwd=gzkx  
 
 # Running the Code
-
+Before training, please convert the instance segmentation annotation into [COCO json format](https://cocodataset.org/).
 ## Training
 ```
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --master_port=25611 main.py \
