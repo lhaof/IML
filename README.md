@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --m
 
 ## Inference
 ```
-python inference_tnbc.py
+python inference_dataset.py
 ```
 
 ## Citation
